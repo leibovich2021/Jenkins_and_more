@@ -1,0 +1,32 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Start of stage Build'
+                echo 'Building'
+                echo 'End Build'
+            }
+}
+    
+
+        stage('Test') {
+            steps {
+                echo 'Start to test '
+                echo 'testing'
+                echo 'End Test'
+            }
+        }
+
+
+        stage('3-Deploy') {
+            steps {
+                echo 'start pf stage Deploy'
+                echo 'Deploing'
+                echo 'End of stage deploy'
+            }
+        }
+    }
+}
+
