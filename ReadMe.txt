@@ -16,3 +16,22 @@ Publish Over SSH
 (we need oped access sudo chmod 777 -R /var/www/html/)
 
 **********************
+-----------------------------------------------------------
+
+**********************
+
+Jenkins Slaves/Nodes
+open server in aws of ubuntu system
+
+plug to Download:
+SSH Slave
+SSH Agent
+
+**install java**
+go to :    Dashboard -> Manage Jenkins -> Nodes -> New Node
+Create new Node(=slave) (launch method via SSH). and Create Credentials
+
+*Labels*
+
+
+
