@@ -9,7 +9,6 @@ Open new item in Jenkins
 to Executr shell put cat index.html
 
 For SSH We need:
-
 1. plug to Download:
 Publish Over SSH 
 2.Open in Job -> Publish Over SSH -> Post-build Actions ->  Send build artifacts over SSH
