@@ -61,3 +61,10 @@ push to github some file.
 Dashboard->Manage Jenkins->Configure Global Security-> Git Host Key Verification Configuration 
 change to  Host Key Verification Strategy=Accept first connection
 5. to deploy in server we  Send build artifacts over SSH
+
+**********************
+-----------------------------------------------------------
+
+**********************
+
+Build Job из GitHub - Jenkins Build Triggers
