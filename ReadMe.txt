@@ -45,6 +45,14 @@ plug to Download:
 Git plug
 jenkins->Login to GitHub->git clone->Build/compile->Test->Deploy->WebServer(AWS)
 
+we need:
+1.repository
+2.jenkins job
+3.key from computer ( ssh-keygen)
+public key go to github and praivte key go to jenkins
+
+
+
 1. Create a new repository in GitHub
 push to github some file.
 2.in Jenkins job go to Configuration -> Genetal -> GitHub project, and put our url link from GitHub repository
@@ -52,3 +60,4 @@ push to github some file.
 4. create Credentials of server (dont forghet ssh key to git from computer)
 Dashboard->Manage Jenkins->Configure Global Security-> Git Host Key Verification Configuration 
 change to  Host Key Verification Strategy=Accept first connection
+5. to deploy in server we  Send build artifacts over SSH
