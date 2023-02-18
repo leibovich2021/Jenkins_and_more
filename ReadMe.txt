@@ -67,5 +67,12 @@ change to  Host Key Verification Strategy=Accept first connection
 
 **********************
 
-Build Job from GitHub -   Jenkins Build Triggers
+Build Job from GitHub -   Jenkins Build Triggers (webhook)
+GitHub hook trigger for GITScm polling
 
+
+Dashboard->test-job->Configuration->General->GitHub project
+Project url + GitHub hook trigger for GITScm polling\
+
+now in github go to Webhooks
+http://13.40.192.241:8080/github-webhook/
