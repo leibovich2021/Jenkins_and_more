@@ -67,5 +67,5 @@ change to  Host Key Verification Strategy=Accept first connection
 
 **********************
 
-Build Job from GitHub - Jenkins Build Triggers
+Build Job from GitHub -   Jenkins Build Triggers
 
