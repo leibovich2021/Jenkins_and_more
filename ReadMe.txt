@@ -43,6 +43,7 @@ Jenkins Deploy from GitHub
 
 plug to Download:
 Git plug
+
 jenkins->Login to GitHub->git clone->Build/compile->Test->Deploy->WebServer(AWS)
 
 we need:
@@ -76,3 +77,22 @@ Project url + GitHub hook trigger for GITScm polling\
 
 now in github go to Webhooks
 http://13.40.192.241:8080/github-webhook/
+
+
+
+
+**********************
+-----------------------------------------------------------
+
+**********************
+
+Jenkins Pipeline and Jenkinsfile
+
+plug to Download:
+pipeline
+
+to open permission denied
+sudo chmod 666 /var/run/docker.sock
+
+
+
