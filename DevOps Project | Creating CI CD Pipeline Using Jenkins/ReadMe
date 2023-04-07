@@ -1,1 +1,12 @@
-DevOps Project | Creating CI CD Pipeline Using Jenkins
+DeDevOps Project | Creating CI CD Pipeline Using Jenkins
+
+=======================================================
+
+How To Install Jenkins on Ubuntu 20.04 
+--------------------------------------
+$ sudo apt update
+$ sudo apt install openjdk-11-jdk
+$ java --version
+$ wget -p -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+$ sudo apt update
+$ sudo apt install jenkinsvOps Project | Creating CI CD Pipeline Using Jenkins
